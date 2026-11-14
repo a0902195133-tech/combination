@@ -1,55 +1,5 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>組合布局</title>
-    <!-- 引入 Bootstrap 5 CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
-<body>
-
-    <div class="container my-4">
-        
-        <!-- 輪播圖區塊 -->
-        <div id="carouselStackedIndicators" class="carousel slide mb-5" data-bs-ride="carousel">
-            <!-- 輪播圖指示器 -->
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselStackedIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselStackedIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselStackedIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#carouselStackedIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-            </div>
-            
-            <!-- 輪播圖圖片 -->
-            <div class="carousel-inner rounded-5">
-                <div class="carousel-item active">
-                    <img src="https://picsum.photos/id/116/1200/400" class="d-block w-100" alt="Slide 1">
-                </div>
-                <div class="carousel-item">
-                    <img src="https://picsum.photos/id/42/1200/400" class="d-block w-100" alt="Slide 2">
-                </div>
-                <div class="carousel-item">
-                    <img src="https://picsum.photos/id/89/1200/400" class="d-block w-100" alt="Slide 3">
-                </div>
-                <div class="carousel-item">
-                    <img src="https://picsum.photos/id/206/1200/400" class="d-block w-100" alt="Slide 4">
-                </div>
-            </div>
-            
-            <!-- 輪播圖控制按鈕 -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselStackedIndicators" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselStackedIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-
-        <!DOCTYPE html>
-<html lang="zh-TW">
 
 <head>
     <meta charset="UTF-8">
@@ -234,4 +184,19 @@
             <div class="col-12 col-sm-6 col-md-3 col-xl-2">
                 <div class="card h-100">
                     <img src="https://picsum.photos/id/193/576/300" class="card-img-top" alt="Card 12">
-                    <div class="card-body d-flex
+                    <div class="card-body d-flex flex-column">
+                        <h4 class="card-title">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                        <a href="#" class="btn btn-primary mt-auto">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- 引入 Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
