@@ -18,6 +18,13 @@
         .carousel-indicators [data-bs-target] {
             background-color: #000;
         }
+
+        /* 圖片比例不同，統一裁成正方形，避免高度不一 */
+        .carousel-item img,
+        .card-img-top {
+            aspect-ratio: 1 / 1;
+            object-fit: cover;
+        }
     </style>
 </head>
 
@@ -27,16 +34,16 @@
         <div id="carouselStackedIndicators" class="carousel slide mx-auto mb-4" style="max-width: 500px">
             <div class="carousel-inner rounded-5">
                 <div class="carousel-item active">
-                    <img src="images/1.jpg" class="d-block w-100" alt="...">
+                    <img src="boatman-punting-boat-river-arashiyama-autumn-season-along-river-kyoto-japan.jpg" class="d-block w-100" alt="嵐山楓葉與小舟">
                 </div>
                 <div class="carousel-item">
-                    <img src="images/2.jpg" class="d-block w-100" alt="...">
+                    <img src="beautiful-landscape-mountain-fuji-around-yamanakako-lake__1_.jpg" class="d-block w-100" alt="富士山與天鵝">
                 </div>
                 <div class="carousel-item">
-                    <img src="images/3.jpg" class="d-block w-100" alt="...">
+                    <img src="byodo-temple.jpg" class="d-block w-100" alt="平等院">
                 </div>
                 <div class="carousel-item">
-                    <img src="images/4.jpg" class="d-block w-100" alt="...">
+                    <img src="dreamy-rainbow-countryside.jpg" class="d-block w-100" alt="彩虹與富士山">
                 </div>
             </div>
             <div class="d-flex justify-content-between align-items-center">
@@ -69,7 +76,7 @@
 
             <div class="col">
                 <section class="card h-100">
-                    <img src="images/5.jpg" class="card-img-top" alt="...">
+                    <img src="low-angle-shot-beautiful-sunflower-breathtaking-cloudy-sky.jpg" class="card-img-top" alt="向日葵">
                     <div class="card-body">
                         <h4 class="card-title">Card title</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
@@ -81,7 +88,7 @@
 
             <div class="col">
                 <section class="card h-100">
-                    <img src="images/6.jpg" class="card-img-top" alt="...">
+                    <img src="portrait-young-person-holding-camera-device-world-photography-day.jpg" class="card-img-top" alt="拿相機的人">
                     <div class="card-body">
                         <h4 class="card-title">Card title</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
@@ -93,7 +100,7 @@
 
             <div class="col">
                 <section class="card h-100">
-                    <img src="images/7.jpg" class="card-img-top" alt="...">
+                    <img src="boatman-punting-boat-river-arashiyama-autumn-season-along-river-kyoto-japan.jpg" class="card-img-top" alt="嵐山楓葉與小舟">
                     <div class="card-body">
                         <h4 class="card-title">Card title</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
@@ -105,7 +112,7 @@
 
             <div class="col">
                 <section class="card h-100">
-                    <img src="images/8.jpg" class="card-img-top" alt="...">
+                    <img src="beautiful-landscape-mountain-fuji-around-yamanakako-lake__1_.jpg" class="card-img-top" alt="富士山與天鵝">
                     <div class="card-body">
                         <h4 class="card-title">Card title</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
@@ -117,7 +124,7 @@
 
             <div class="col">
                 <section class="card h-100">
-                    <img src="images/9.jpg" class="card-img-top" alt="...">
+                    <img src="niagara-falls-colors.jpg" class="card-img-top" alt="尼加拉瓜瀑布">
                     <div class="card-body">
                         <h4 class="card-title">Card title</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
@@ -129,7 +136,7 @@
 
             <div class="col">
                 <section class="card h-100">
-                    <img src="images/10.jpg" class="card-img-top" alt="...">
+                    <img src="digital-art-style-illustration-river-nature.jpg" class="card-img-top" alt="雪山倒影插畫">
                     <div class="card-body">
                         <h4 class="card-title">Card title</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
@@ -141,7 +148,7 @@
 
             <div class="col">
                 <section class="card h-100">
-                    <img src="images/11.jpg" class="card-img-top" alt="...">
+                    <img src="byodo-temple.jpg" class="card-img-top" alt="平等院">
                     <div class="card-body">
                         <h4 class="card-title">Card title</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
@@ -153,7 +160,7 @@
 
             <div class="col">
                 <section class="card h-100">
-                    <img src="images/12.jpg" class="card-img-top" alt="...">
+                    <img src="dreamy-rainbow-countryside.jpg" class="card-img-top" alt="彩虹與富士山">
                     <div class="card-body">
                         <h4 class="card-title">Card title</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
@@ -165,7 +172,7 @@
 
             <div class="col">
                 <section class="card h-100">
-                    <img src="images/13.jpg" class="card-img-top" alt="...">
+                    <img src="ginkgo-tree-japan.jpg" class="card-img-top" alt="銀杏樹">
                     <div class="card-body">
                         <h4 class="card-title">Card title</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
@@ -177,7 +184,7 @@
 
             <div class="col">
                 <section class="card h-100">
-                    <img src="images/14.jpg" class="card-img-top" alt="...">
+                    <img src="asian-trunk-town-river-foggy-peak.jpg" class="card-img-top" alt="桂林山水">
                     <div class="card-body">
                         <h4 class="card-title">Card title</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
@@ -189,7 +196,7 @@
 
             <div class="col">
                 <section class="card h-100">
-                    <img src="images/15.jpg" class="card-img-top" alt="...">
+                    <img src="boatman-punting-boat-river-arashiyama-autumn-season-along-river-kyoto-japan.jpg" class="card-img-top" alt="嵐山楓葉與小舟">
                     <div class="card-body">
                         <h4 class="card-title">Card title</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
@@ -201,7 +208,7 @@
 
             <div class="col">
                 <section class="card h-100">
-                    <img src="images/16.jpg" class="card-img-top" alt="...">
+                    <img src="beautiful-landscape-mountain-fuji-around-yamanakako-lake__1_.jpg" class="card-img-top" alt="富士山與天鵝">
                     <div class="card-body">
                         <h4 class="card-title">Card title</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
